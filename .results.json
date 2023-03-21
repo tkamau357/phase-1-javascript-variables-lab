@@ -1,0 +1,139 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 2,
+    "pending": 0,
+    "failures": 4,
+    "start": "2023-03-21T19:29:56.313Z",
+    "end": "2023-03-21T19:29:56.745Z",
+    "duration": 432
+  },
+  "tests": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [Function: mostProfitableNeighborhood] to equal 'Chelsea'",
+        "showDiff": true,
+        "expected": "Chelsea",
+        "stack": "AssertionError: expected [Function: mostProfitableNeighborhood] to equal 'Chelsea'\n    at Context.<anonymous> (test/indexTest.js:19:45)\n    at process.processImmediate (node:internal/timers:475:21)"
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected mostProfitableNeighborhood to be defined using let: expected '// Code your solution in this file!\\nconst companyName =\\'Scuber\\';\\n\\nlet neighborhood = mostProfitableNeighborhood();\\n\\nfunction mostProfitableNeighborhood() {\\n  return \"Chelsea\";\\n}\\n\\n// Example usage\\nconsole.log(mostProfitableNeighborhood()); // Output: \"Chelsea\"\\n' to match /let mostProfitableNeighborhood/",
+        "showDiff": false,
+        "actual": "// Code your solution in this file!\nconst companyName ='Scuber';\n\nlet neighborhood = mostProfitableNeighborhood();\n\nfunction mostProfitableNeighborhood() {\n  return \"Chelsea\";\n}\n\n// Example usage\nconsole.log(mostProfitableNeighborhood()); // Output: \"Chelsea\"\n",
+        "stack": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected '// Code your solution in this file!\\nconst companyName =\\'Scuber\\';\\n\\nlet neighborhood = mostProfitableNeighborhood();\\n\\nfunction mostProfitableNeighborhood() {\\n  return \"Chelsea\";\\n}\\n\\n// Example usage\\nconsole.log(mostProfitableNeighborhood()); // Output: \"Chelsea\"\\n' to match /let mostProfitableNeighborhood/\n    at Context.<anonymous> (test/indexTest.js:23:21)\n    at process.processImmediate (node:internal/timers:475:21)"
+      }
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:29:14)\n    at process.processImmediate (node:internal/timers:475:21)",
+        "message": "companyCeo is not defined"
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyCeo to be defined using let: expected '// Code your solution in this file!\\nconst companyName =\\'Scuber\\';\\n\\nlet neighborhood = mostProfitableNeighborhood();\\n\\nfunction mostProfitableNeighborhood() {\\n  return \"Chelsea\";\\n}\\n\\n// Example usage\\nconsole.log(mostProfitableNeighborhood()); // Output: \"Chelsea\"\\n' to match /let companyCeo/",
+        "showDiff": false,
+        "actual": "// Code your solution in this file!\nconst companyName ='Scuber';\n\nlet neighborhood = mostProfitableNeighborhood();\n\nfunction mostProfitableNeighborhood() {\n  return \"Chelsea\";\n}\n\n// Example usage\nconsole.log(mostProfitableNeighborhood()); // Output: \"Chelsea\"\n",
+        "stack": "AssertionError: Expected companyCeo to be defined using let: expected '// Code your solution in this file!\\nconst companyName =\\'Scuber\\';\\n\\nlet neighborhood = mostProfitableNeighborhood();\\n\\nfunction mostProfitableNeighborhood() {\\n  return \"Chelsea\";\\n}\\n\\n// Example usage\\nconsole.log(mostProfitableNeighborhood()); // Output: \"Chelsea\"\\n' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:33:21)\n    at process.processImmediate (node:internal/timers:475:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [Function: mostProfitableNeighborhood] to equal 'Chelsea'",
+        "showDiff": true,
+        "expected": "Chelsea",
+        "stack": "AssertionError: expected [Function: mostProfitableNeighborhood] to equal 'Chelsea'\n    at Context.<anonymous> (test/indexTest.js:19:45)\n    at process.processImmediate (node:internal/timers:475:21)"
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected mostProfitableNeighborhood to be defined using let: expected '// Code your solution in this file!\\nconst companyName =\\'Scuber\\';\\n\\nlet neighborhood = mostProfitableNeighborhood();\\n\\nfunction mostProfitableNeighborhood() {\\n  return \"Chelsea\";\\n}\\n\\n// Example usage\\nconsole.log(mostProfitableNeighborhood()); // Output: \"Chelsea\"\\n' to match /let mostProfitableNeighborhood/",
+        "showDiff": false,
+        "actual": "// Code your solution in this file!\nconst companyName ='Scuber';\n\nlet neighborhood = mostProfitableNeighborhood();\n\nfunction mostProfitableNeighborhood() {\n  return \"Chelsea\";\n}\n\n// Example usage\nconsole.log(mostProfitableNeighborhood()); // Output: \"Chelsea\"\n",
+        "stack": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected '// Code your solution in this file!\\nconst companyName =\\'Scuber\\';\\n\\nlet neighborhood = mostProfitableNeighborhood();\\n\\nfunction mostProfitableNeighborhood() {\\n  return \"Chelsea\";\\n}\\n\\n// Example usage\\nconsole.log(mostProfitableNeighborhood()); // Output: \"Chelsea\"\\n' to match /let mostProfitableNeighborhood/\n    at Context.<anonymous> (test/indexTest.js:23:21)\n    at process.processImmediate (node:internal/timers:475:21)"
+      }
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:29:14)\n    at process.processImmediate (node:internal/timers:475:21)",
+        "message": "companyCeo is not defined"
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyCeo to be defined using let: expected '// Code your solution in this file!\\nconst companyName =\\'Scuber\\';\\n\\nlet neighborhood = mostProfitableNeighborhood();\\n\\nfunction mostProfitableNeighborhood() {\\n  return \"Chelsea\";\\n}\\n\\n// Example usage\\nconsole.log(mostProfitableNeighborhood()); // Output: \"Chelsea\"\\n' to match /let companyCeo/",
+        "showDiff": false,
+        "actual": "// Code your solution in this file!\nconst companyName ='Scuber';\n\nlet neighborhood = mostProfitableNeighborhood();\n\nfunction mostProfitableNeighborhood() {\n  return \"Chelsea\";\n}\n\n// Example usage\nconsole.log(mostProfitableNeighborhood()); // Output: \"Chelsea\"\n",
+        "stack": "AssertionError: Expected companyCeo to be defined using let: expected '// Code your solution in this file!\\nconst companyName =\\'Scuber\\';\\n\\nlet neighborhood = mostProfitableNeighborhood();\\n\\nfunction mostProfitableNeighborhood() {\\n  return \"Chelsea\";\\n}\\n\\n// Example usage\\nconsole.log(mostProfitableNeighborhood()); // Output: \"Chelsea\"\\n' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:33:21)\n    at process.processImmediate (node:internal/timers:475:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
